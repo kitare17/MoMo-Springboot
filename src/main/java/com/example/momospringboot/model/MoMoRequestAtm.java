@@ -2,7 +2,6 @@ package com.example.momospringboot.model;
 
 import com.example.momospringboot.constant.Constant;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
@@ -21,7 +20,7 @@ public class MoMoRequestAtm {
     @NonNull
     private String orderId;
     @NonNull
-    private int amount;
+    private Long amount;
     @NonNull
     private String orderInfo;
     @NonNull

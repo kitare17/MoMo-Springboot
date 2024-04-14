@@ -2,7 +2,6 @@ package com.example.momospringboot.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Getter;
 
 @Data
 @AllArgsConstructor
